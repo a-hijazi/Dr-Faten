@@ -20,3 +20,21 @@
 .MainSectionImg {
   height: 500px;
 }
+.MainSectionH1 {
+  color: gray;
+  font-size: larger;
+  width: 150px;
+}
+.MainSectionH2 {
+  color: gray;
+  font-size: larger;
+}
+.MainSectionButton {
+  background-color: rgba(18, 84, 190, 0.871);
+  color: white;
+  border-style: none;
+  border-radius: 7px;
+  font-weight: bold;
+  height: 35px;
+  width: 200px;
+}
