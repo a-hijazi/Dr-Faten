@@ -4,6 +4,8 @@
 .Navbar {
   height: 80px;
   background-color: aquamarine;
+  color: black;
+  font-size: 35px;
 }
 
 .MainSection {
@@ -19,15 +21,16 @@
 
 .MainSectionImg {
   height: 500px;
+  border-radius: 50px;
 }
 .MainSectionH1 {
   color: gray;
-  font-size: larger;
-  width: 150px;
+  font-size: 60px;
+  width: 250px;
 }
 .MainSectionH2 {
   color: gray;
-  font-size: larger;
+  font-size: 40px;
 }
 .MainSectionButton {
   background-color: rgba(18, 84, 190, 0.871);
