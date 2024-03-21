@@ -18,6 +18,8 @@ jobs:
 
     - name: Checkout qa
       run: git checkout qa
+       with:
+        ref: qa
 
     - name: Pull from origin qa
       run: git pull origin qa
