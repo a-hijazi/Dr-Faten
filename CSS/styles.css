@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  padding: 0 20px;
+  background-color: #f0f0f0;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+}
+
+.category {
+  margin-left: 20px;
+}
+
+.category p {
+  margin: 0;
+}
+
+nav {
+  /* height: 5vh; */
+  background-color: #00f5d5;
+  display: flex;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+
+.hero {
+  height: 70vh;
+  padding: 0 20px;
+  background: linear-gradient(to right, #fff, #ccc);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; */
+  padding-right: 20px;
+}
+
+.text h1 {
+  margin: 0;
+}
+
+.buttons button {
+  margin-top: 10px;
+  /* display: flex; */
+}
+
+.photo img {
+  max-width: 100%;
+  /* height: auto; */
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.service {
+  flex-basis: 23%;
+  text-align: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.service h2 {
+  margin-top: 0;
+}
+
+.service p {
+  color: #666;
+}
