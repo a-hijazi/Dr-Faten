@@ -1,0 +1,30 @@
+name: Manual GitHub Flow
+
+on:
+  workflow_dispatch: # Manually trigger the workflow
+
+jobs:
+  merge_dev_into_qa:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout dev
+      uses: actions/checkout@v2
+      with:
+        ref: dev
+
+    - name: Pull from origin dev
+      run: git pull origin dev
+
+    - name: Create and checkout qa if it doesn't exist
+      run: git checkout -B qa origin/qa
+      continue-on-error: true
+
+    - name: Pull from origin qa
+      run: git pull origin qa
+
+    - name: Merge dev into qa
+      run: git merge dev
+
+    - name: Push qa to origin qa
+      run: git push origin qa
